@@ -1,0 +1,1 @@
+comb n r = fact n `div` (fact r * fact (n-r))
